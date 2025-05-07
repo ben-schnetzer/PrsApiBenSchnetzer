@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "AbNWD6QON98l0rhcDNt5zeXsI91XH1HctLrLiEUwALs=",
+  "Source": "PrsApi",
+  "BasePath": "_content/PrsApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
