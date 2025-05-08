@@ -24,7 +24,8 @@ public partial class LineItem
     public int? Quantity { get; set; }
 
     [ForeignKey("ProductId")]
-   // [InverseProperty("LineItems")]
+    // [InverseProperty("LineItems")]
+    [JsonIgnore]
     public virtual Product? Product { get; set; }
 
     [ForeignKey("RequestId")]

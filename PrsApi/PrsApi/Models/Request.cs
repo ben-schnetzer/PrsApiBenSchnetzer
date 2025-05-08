@@ -29,7 +29,7 @@ public partial class Request
     [Unicode(false)]
     public string Justification { get; set; } = null!;
 
-    public DateOnly DateNeeded { get; set; }
+    public DateTime DateNeeded { get; set; }
 
     [StringLength(25)]
     [Unicode(false)]
@@ -52,8 +52,8 @@ public partial class Request
     [InverseProperty("Request")]
     public virtual ICollection<LineItem> LineItems { get; set; } = new List<LineItem>();
 
-    [ForeignKey("UserId")]
-    //[InverseProperty("Requests")]
-    [JsonIgnore]
-    public virtual User User { get; set; } = null!;
+    //[ForeignKey("UserId")]
+    ////[InverseProperty("Requests")]
+    //[JsonIgnore]
+    //public virtual User User { get; set; } = null!;
 }

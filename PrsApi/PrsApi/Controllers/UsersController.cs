@@ -81,7 +81,7 @@ namespace PrsApi.Controllers
 
         [HttpPost("login")]
         // public IActionResult Login([FromBody] UserLoginDTO loginDto)
-        public async Task<ActionResult<User>> UserLoginDTO(LogIn login)
+        public async Task<ActionResult<User>> UserLogin(LogIn login)
         {
             // Simulate user retrieval from a database
             var user = AuthenticateUser(login.Username, login.Password);

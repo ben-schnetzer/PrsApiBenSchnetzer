@@ -17,35 +17,35 @@ public partial class Vendor
 
     [StringLength(10)]
     [Unicode(false)]
-    public string VendorCode { get; set; } = null!;
+    public string Code { get; set; } = null!;
 
     [StringLength(255)]
     [Unicode(false)]
-    public string VendorName { get; set; } = null!;
+    public string Name { get; set; } = null!;
 
     [StringLength(255)]
     [Unicode(false)]
-    public string VendorAddress { get; set; } = null!;
+    public string Address { get; set; } = null!;
 
     [StringLength(255)]
     [Unicode(false)]
-    public string VendorCity { get; set; } = null!;
+    public string City { get; set; } = null!;
 
     [StringLength(2)]
     [Unicode(false)]
-    public string VendorState { get; set; } = null!;
+    public string State { get; set; } = null!;
 
     [StringLength(5)]
     [Unicode(false)]
-    public string VendorZip { get; set; } = null!;
+    public string Zip { get; set; } = null!;
 
     [StringLength(12)]
     [Unicode(false)]
-    public string VendorPhoneNumber { get; set; } = null!;
+    public string PhoneNumber { get; set; } = null!;
 
     [StringLength(100)]
     [Unicode(false)]
-    public string VendorEmail { get; set; } = null!;
+    public string Email { get; set; } = null!;
 
     //[InverseProperty("Vendor")]
     [JsonIgnore]

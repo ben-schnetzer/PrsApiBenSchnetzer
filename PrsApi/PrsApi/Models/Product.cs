@@ -41,8 +41,8 @@ public partial class Product
     [JsonIgnore]
     public virtual ICollection<LineItem> LineItems { get; set; } = new List<LineItem>();
 
-    [ForeignKey("VendorId")]
+    //[ForeignKey("VendorId")]
     //[InverseProperty("Products")]
-    [JsonIgnore]
-    public virtual Vendor Vendor { get; set; } = null!;
+    //[JsonIgnore]
+    //public virtual Vendor Vendor { get; set; } = null!;
 }
