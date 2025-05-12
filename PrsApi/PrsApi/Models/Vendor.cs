@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace PrsApi.Models;
 
 [Table("Vendor")]
-[Index("VendorCode", Name = "vcode", IsUnique = true)]
+[Index("Code", Name = "vcode", IsUnique = true)]
 public partial class Vendor
 {
     [Key]
